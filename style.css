@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  -webkit-font-smoothing: antialised;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+.clockContainer .timeSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 250px;
+  width: 800px;
+  margin: auto;
+  font-size: 5rem;
+}
+
+.clockContainer .timeElDiv {
+  background-color: #fffefe;
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 0px #6d6d6e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clockContainer .timeElDiv h1 {
+  font-size: 95px;
+  background: -webkit-linear-gradient(#191175, #5963c7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.clockContainer .timeSection > span div {
+  background-color: #fffefe;
+  height: 20px;
+  width: 20px;
+  margin: 15px 0;
+  border-radius: 50px;
+  font-size: 72px;
+  box-shadow: 0px -5px 10px 0px rgb(109, 72, 98);
+}
+
+.clockContainer .meridianEl h3 {
+  font-size: 64px;
+  background: -webkit-linear-gradient(rgb(52 31 223), rgb(78 91 105));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: cursive;
+  text-transform: uppercase;
+}
+
+.otherInfoSection div {
+  background-color: #fffefe;
+  height: 70px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 0px #6d6d6e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.otherInfoSection .dayEl h1 {
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(rgb(52 31 223), rgb(78 91 105));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+}
